@@ -5,7 +5,7 @@
     <title>survey</title>
 </head>
 <body>
-    <img src="img/man for page survey.jpg"alt="man for page survey" align="right" width="350" height="300"></img>
+    <img src="img/man for page survey.jpg"alt="man for page survey" align="right" width="350" height="250"></img>
     <h1>Social survey</h1>
     <hr align="left" width="500" size="3">
     <p><b><i>We suggest you go social survey</p></i></b>
@@ -28,10 +28,13 @@
     <form action="https://formspree.io/sasha1998f@mail.ru" method="POST" >
         <fieldset>
             <p><i>ANSWER SOME QUESTION:</p></i>
-            <label for="answer1">What you mean Anniversary Square?</label>
+            <label for="answer1">How do you put Trump to win the election in the US?</label>
             <br>
-            <input type="text" name="answer1" id="answer1"
-            placeholder="input you answer" required>
+            <label for="answer1">Positive</label>
+            <input type="radio" name="answer1" id="answer1" value="positiv" checked="checked" required>
+            <br>
+            <label for="answer1">Negetive</label>
+            <input type="radio" name="answer1" id="answer1" value="negetive" required>
     </fieldset>
         <fieldset>
             <p><i>Complete the form</p></i>
@@ -40,10 +43,17 @@
             <input type="text" name="Name" id="name"
             placeholder="input you name" required>
             <br>
-            <label for="gender">Gender:</label>
+            <label for="male-or-female">Male-or-female:</label>
             <br>
-            <input type="text" name="gender" id="gender"
-            placeholder="input your gender" required>
+            <label for="male-or-female">Man:</label>
+            <br>
+            <input type="radio" name="male-or-female" id="male-or-female"
+            value="Man" checked="checked" required>
+            <br>
+            <label for="male-or-female">Wooman:</label>
+            <br>
+            <input type="radio" name="male-or-female" id="male-or-female"
+            value="wooman" required>
             <br>
             <label for="email">Email:</label>
             <br>
